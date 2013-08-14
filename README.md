@@ -12,7 +12,7 @@ QA teams with detailed information about the tested application using email repo
 
 ## Quick start
 To generate the Kulana project archetype:
-* Clone the repo: `git@github.com:qaprosoft/kulana.git`
+* Clone the repo: `https://github.com/thpii/kulana-archetype.git`
 * Download appropriate Selenium server from above links and run it by `start-selenium.bat` on Windows or `start.sh` on Mac
 * Navigate to the cloned repo on local machine (where pom.xml is located) and execute:
 
@@ -23,7 +23,7 @@ mvn install
 attributes, DO NOT forget to use quotes if values contain whitespaces):
 
 ```
-mvn archetype:generate -DarchetypeGroupId=com.qaprosoft \
+mvn archetype:generate -DarchetypeGroupId=com.thpii \
                        -DarchetypeArtifactId=kulana \
                        -DarchetypeVersion=1.0 \
                        -DgroupId=<your_groupId> \ 
