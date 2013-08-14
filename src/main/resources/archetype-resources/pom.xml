@@ -17,7 +17,7 @@
 
 	<repositories>
 		<repository>
-			<id>qaprosoft-core</id>
+			<id>kulana-core</id>
 			<url>https://github.com/thpii/kulana-core/raw/master</url>
 		</repository>
 	</repositories>
