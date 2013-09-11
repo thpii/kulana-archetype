@@ -13,7 +13,7 @@ QA teams with detailed information about the tested application using email repo
 ## Quick start
 To generate the Kulana project archetype:
 * Clone the repo: `https://github.com/thpii/kulana-archetype.git`
-* Download appropriate Selenium server from above links and run it by `start-selenium.bat` on Windows or `start.sh` on Mac
+* Download the appropriate Selenium server from the links above and run it by `start-selenium.bat` on Windows or `start.sh` on Mac
 * Navigate to the cloned repo on local machine (where pom.xml is located) and execute:
 
 ```
