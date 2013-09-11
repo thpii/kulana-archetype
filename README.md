@@ -42,8 +42,8 @@ mvn -Declipse.workspace=<abolute_path_to_workspace> eclipse:add-maven-repo
 ```
 mvn clean eclipse:eclipse
 ```
-* Import generated project as existing Java project into eclipse
-* Install TestNG pluging for Eclipse using official [guide](http://testng.org/doc/download.html)
+* Import generated project as an existing Java project into eclipse
+* Install TestNG plugin for Eclipse using official [guide](http://testng.org/doc/download.html)
 
 ## Initial project configuration
 Before you can run first demo test located in Kulana archetype, you need to specify some configuration attributes (in src/main/resources/_config.properties)
