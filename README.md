@@ -1,7 +1,7 @@
 # Kulana
 
-Kulana is a Java-based framework used for both Web UI testing- using the Selenium Webdriver API and REST/SOAP services 
-testing- using the Rest-Assured and SoapUI frameworks. Kulana provides useful logging and reporting functionality, providing 
+Kulana is a Java-based framework used for both Web UI testing, using the Selenium Webdriver API, and REST/SOAP services 
+testing, using the Rest-Assured and SoapUI frameworks. Kulana provides useful logging and reporting functionality, providing 
 QA teams with detailed information about the tested application using email reports, along with logs and screenshots.
 
 ## Requirements
