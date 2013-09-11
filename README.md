@@ -46,7 +46,7 @@ mvn clean eclipse:eclipse
 * Install TestNG plugin for Eclipse using official [guide](http://testng.org/doc/download.html)
 
 ## Initial project configuration
-Before you can run first demo test located in Kulana archetype, you need to specify some configuration attributes (in src/main/resources/_config.properties)
+Before you can run the first demo test located in the Kulana archetype, you need to specify some configuration attributes (in src/main/resources/_config.properties)
 * default_url - base URL of tested application (e.g.: `http://google.com/`)
 * default_browser - browser used for testing (`chrome/firefox/iexplore`)
 * default_selenium_host - selenium server URL (default: `http://localhost:4444/wd/hub`)
