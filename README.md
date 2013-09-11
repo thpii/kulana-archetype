@@ -19,7 +19,7 @@ To generate the Kulana project archetype:
 ```
 mvn install
 ```
-* Navigate to the folder where your project will be generated and execute (you need to specify you project data for last 5
+* Navigate to the folder where your project will be generated and execute (you need to specify your project data for the last 5
 attributes, DO NOT forget to use quotes if values contain whitespaces):
 
 ```
