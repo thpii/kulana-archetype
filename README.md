@@ -1,7 +1,7 @@
 # Kulana
 
-Kulana is a Java-based framework used for both Web UI testing- using the Selenium Webdriver API, and REST/SOAP services 
-testing- using the Rest-Assured and SoapUI frameworks. Kulana provides useful logging and reporting functionality, providing 
+Kulana is a Java-based framework used for both Web UI testing, using the Selenium Webdriver API, and REST/SOAP services 
+testing, using the Rest-Assured and SoapUI frameworks. Kulana provides useful logging and reporting functionality, providing 
 QA teams with detailed information about the tested application using email reports, along with logs and screenshots.
 
 ## Requirements
@@ -13,13 +13,13 @@ QA teams with detailed information about the tested application using email repo
 ## Quick start
 To generate the Kulana project archetype:
 * Clone the repo: `https://github.com/thpii/kulana-archetype.git`
-* Download appropriate Selenium server from above links and run it by `start-selenium.bat` on Windows or `start.sh` on Mac
+* Download the appropriate Selenium server from the links above and run it by `start-selenium.bat` on Windows or `start.sh` on Mac
 * Navigate to the cloned repo on local machine (where pom.xml is located) and execute:
 
 ```
 mvn install
 ```
-* Navigate to the folder where your project will be generated and execute (you need to specify you project data for last 5
+* Navigate to the folder where your project will be generated and execute (you need to specify your project data for the last 5
 attributes, DO NOT forget to use quotes if values contain whitespaces):
 
 ```
@@ -42,11 +42,11 @@ mvn -Declipse.workspace=<abolute_path_to_workspace> eclipse:add-maven-repo
 ```
 mvn clean eclipse:eclipse
 ```
-* Import generated project as existing Java project into eclipse
-* Install TestNG pluging for Eclipse using official [guide](http://testng.org/doc/download.html)
+* Import generated project as an existing Java project into eclipse
+* Install TestNG plugin for Eclipse using official [guide](http://testng.org/doc/download.html)
 
 ## Initial project configuration
-Before you can run first demo test located in Kulana archetype, you need to specify some configuration attributes (in src/main/resources/_config.properties)
+Before you can run the first demo test located in the Kulana archetype, you need to specify some configuration attributes (in src/main/resources/_config.properties)
 * default_url - base URL of tested application (e.g.: `http://google.com/`)
 * default_browser - browser used for testing (`chrome/firefox/iexplore`)
 * default_selenium_host - selenium server URL (default: `http://localhost:4444/wd/hub`)
